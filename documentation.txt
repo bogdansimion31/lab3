@@ -1,0 +1,3 @@
+diagrama completa
+structura pif
+regex pt identifier sau constante

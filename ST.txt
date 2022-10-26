@@ -1,0 +1,11 @@
+ST: 
+
+number                        0                                       
+index                         1                                       
+flag                          2                                       
+string                        3                                       
+asd                           4                                       
+2                             5                                       
+1                             6                                       
+0                             7                                       
+yes                           8                                       
