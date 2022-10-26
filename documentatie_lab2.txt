@@ -1,0 +1,9 @@
+git: https://github.com/bogdansimion31/lab3
+
+Symbol table implementation using unsorted table:
+    -class SymbolTable: self.table represents the unsorted table used for storing and self.count represents the number of elements
+        -get_position(self, key) : key represents the element we are searching for; returns the index where the element is found, None otherwise
+        -add(self, key) : key represents the element to be added; the function returns the position in which an element is added if it is already there using get_position, otherwise adds it and returns the position in which it is added
+        -get(self, ket) : key represents the position in the table; the function returns the element found on that position
+        -print_st -> prints table to screen
+        -print_st_to_file -> writes table into file
