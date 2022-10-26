@@ -1,2 +1,3 @@
-# lab3
-model > symbolTable.py
+# lab2
+symbol table : model > symbolTable.py
+documentatie : documentatie_lab2.txt
