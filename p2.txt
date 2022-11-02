@@ -1,6 +1,6 @@
-int number, index;
-bool flag= false;
-string asd= "assdd as";
+int number,index;
+bool number= false;
+string myString= "ass .dd as";
 read>>number;
 
 for(index=2;index<=number/2;index=index+1){

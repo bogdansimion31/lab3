@@ -41,6 +41,8 @@ def main():
                         raise Exception('LEXICAL ERROR : '+'Unknown token ' + token + ' at line ' + str(lineNo))
 
     print("lexically correct!")
+    st.print_st_to_file("ST.txt")
+    pif.print_pif_to_file("PIF.txt")
 
 
 if __name__ == '__main__':

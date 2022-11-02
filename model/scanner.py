@@ -35,7 +35,6 @@ def token_generator(line):
             if token:
                 yield token
             token, index = get_string_token(line, index)
-            index= index+1
             yield token
             token = ''
         elif is_part_of_operator(line[index]):
@@ -97,7 +96,7 @@ def is_identifier(token):
 
 
 def is_constant(token):
-    return re.match('^(0|[\+\-]?[1-9][0-9]*)$|^\'.\'$|^\".*\"$', token) is not None
+    return re.match('^(0|[\+\-]?[1-9][0-9]*)$|^\'.\'$|^\".*\"$', token) is not None or re.match('/^[A-Za-z\s]*$/', token) is None
 # import re
 #
 # from model.languageSpecification import *

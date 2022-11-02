@@ -1,7 +1,7 @@
 separators = ['[', ']', '{', '}', '(', ')', ';', ':', ',']
 operators = ['+', '-', '*', '/', '%', '<', '<=', '=', '>=', '>',
              '>>', '<<', '==', '&', '|', '!=', '!']
-reservedWords = ['char', 'int', 'bool', 'const', 'do', 'if', 'true', 'false',
+reservedWords = ['char', 'int', 'string', 'bool', 'const', 'do', 'if', 'true', 'false',
                  'else', 'read', 'break', 'while', 'write', 'and', 'or', 'for']
 
 everything = separators + operators + reservedWords

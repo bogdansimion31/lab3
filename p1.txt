@@ -1,6 +1,6 @@
-int a,b, c ;
+int a,b, c, d ;
 int max;
-
+d=7;
 read >> a ;
 read >> b ;
 read >> c ;

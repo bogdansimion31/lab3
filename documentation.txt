@@ -1,3 +1,18 @@
-diagrama completa
-structura pif
-regex pt identifier sau constante
+Diagram:
+see diagram.mdj / diagram.png
+
+Data Structures used:
+PIF:
+    I used a python list as a table containing pairs of 2 : position and the respective value according to the
+    codification ( reserved word, constant etc. )
+
+ST:
+    I used the same symbol table for constants and identifiers. My symbol table is modeled as an unsorted table
+    using python's built in dictionary. Each pair consists of the value and its position in the table.
+
+Regex Explication:
+    -identifier regex r'^[a-zA-Z]([a-zA-Z]|[0-9]){,7}$' : must begin with either upper/lowercase letter,
+     then capture any upper/lowercase letter or digit
+    -constant regex (integer) ^(0|[\+\-]?[1-9][0-9]*)$ : we either have 0 or an integer represented
+    signed or unsigned as a sequence of digits starting with a digit different from 0
+    -constant regex (char sequence) ^[A-Za-z\s]*$ : any number of upper/lowercase characters or whitespaces
